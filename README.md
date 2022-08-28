@@ -2,10 +2,10 @@
 
 ```html
 > npm i
+<br/>
 > npm start
 ```
 
-</code>
 
 Should open the server as http://localhost:1234/
 
