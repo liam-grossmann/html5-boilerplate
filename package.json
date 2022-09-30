@@ -16,6 +16,9 @@
     "npm": ">=8.11.0"
   },
   "devDependencies": {
+    "@parcel/css": "^1.14.0",
+    "@parcel/packager-raw-url": "^2.7.0",
+    "@parcel/transformer-webmanifest": "^2.7.0",
     "parcel": "^2.7.0"
   }
 }
