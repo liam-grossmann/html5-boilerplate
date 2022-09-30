@@ -10,7 +10,6 @@ Simple web application that uses the standard HTML5 boilerplate.
 
 > npm start
 
-> npm 
 ```
 
 Should open the server as http://localhost:1234/
