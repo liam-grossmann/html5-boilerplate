@@ -29,6 +29,7 @@ The site is hosted as https://delightful-island-0ae4e2e03.1.azurestaticapps.net/
 
 Removed most npm warnings and errors
 * Upgraded from parcel-budler v1.2 to parcel v2.0. See [here](https://parceljs.org/getting-started/migration/) for more.
+* Added the engines setting to package.json to fix Azure build failure. 'engines' specifies node and npm versions.
 
 
 Some warnings cannot be fixed. Parcel v2 has dependancies on some deprecated packages. The solution might be to use Webpack.
