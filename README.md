@@ -6,9 +6,9 @@ Simple web application that uses the standard HTML5 boilerplate.
 ## Running Locally
 
 ```html
-> yarn install
+> npm install
 
-> yarn start
+> npm start
 
 ```
 
@@ -29,10 +29,11 @@ The site is hosted as https://delightful-island-0ae4e2e03.1.azurestaticapps.net/
 
 Removed most npm warnings and errors
 * Upgraded from parcel-budler v1.2 to parcel v2.0. See [here](https://parceljs.org/getting-started/migration/) for more.
-* Added the engines setting to package.json to fix Azure build failure. 'engines' specifies node and npm versions.
+* Added the engines setting to package.json to fix Azure build failures. The 'engines' tag specifies node and npm versions.
+* Added @parcel/transformer-webmanifest and some other parcel libraries as dev dependancies to fix some Azure build errors.
 
 
+NOTE:
 Some warnings cannot be fixed. Parcel v2 has dependancies on some deprecated packages. The solution might be to use Webpack.
-* npm WARN deprecated request@2.88.2: request has been deprecated. See [here](https://medium.com/@andrewskangah/npm-warn-deprecated-request-2-88-2-b6da20766fd7) for more details.
-* npm WARN deprecated request-promise-native@1.0.8: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+* npm WARN deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
 

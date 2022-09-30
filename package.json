@@ -8,12 +8,12 @@
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
-    "start": "yarn run build && yarn run dev",
+    "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
     "node": ">=16.15.1",
-    "yarn": ">=1.22.19"
+    "npm": ">=8.11"
   },
   "devDependencies": {
     "@parcel/packager-raw-url": "2.7.0",
