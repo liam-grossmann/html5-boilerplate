@@ -1,5 +1,5 @@
 {
-  "name": " ",
+  "name": "html5-boilerplate",
   "version": "0.0.1",
   "description": "",
   "keywords": "",
@@ -8,17 +8,16 @@
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
-    "start": "npm run build && npm run dev",
+    "start": "yarn run build && yarn run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
     "node": ">=16.15.1",
-    "npm": ">=8.11.0"
+    "yarn": ">=1.22.19"
   },
   "devDependencies": {
-    "@parcel/css": "^1.14.0",
-    "@parcel/packager-raw-url": "^2.7.0",
-    "@parcel/transformer-webmanifest": "^2.7.0",
+    "@parcel/packager-raw-url": "2.7.0",
+    "@parcel/transformer-webmanifest": "2.7.0",
     "parcel": "^2.7.0"
   }
 }

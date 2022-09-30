@@ -6,9 +6,9 @@ Simple web application that uses the standard HTML5 boilerplate.
 ## Running Locally
 
 ```html
-> npm i
+> yarn install
 
-> npm start
+> yarn start
 
 ```
 
