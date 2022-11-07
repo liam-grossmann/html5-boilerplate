@@ -22,7 +22,7 @@ the compiles are stored on GitHub [here](https://github.com/liam-grossmann/html5
 
 Static web pages are free to host on Azure. They are the perfect way to showcase your front end coding skills.
 
-The site is hosted as https://delightful-island-0ae4e2e03.1.azurestaticapps.net/.
+The site is hosted as https://proud-mud-0ab2c3803.2.azurestaticapps.net.
 
 
 ## Changelog and Fixes
